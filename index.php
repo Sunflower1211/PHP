@@ -11,7 +11,7 @@ $options = [
  PDO::ATTR_EMULATE_PREPARES => false,
 ];
 try {
- $pdo = new PDO($dsn, $user, $pass, $options);
+    $pdo = new PDO($dsn, $user, $pass, $options);
 
  //b2 thuc hie ntruy van
  $sql = "SELECT tieude, hinhanh, ma_bviet FROM baiviet";
